@@ -17,7 +17,7 @@ const downBtn = document.getElementById('down-btn');
 
 // Initialize canvas size
 function initCanvasSize() {
-  if (window.innerWidth <= 768 || window.innerHeight <= 700) {
+  if (window.innerWidth <= 700 || window.innerHeight <= 700) {
     canvas.width = 300;
     canvas.height = 600;
   } else {
